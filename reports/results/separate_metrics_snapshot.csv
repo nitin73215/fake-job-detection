@@ -1,0 +1,11 @@
+Model,Accuracy,Fraud Precision,Fraud Recall,Fraud F1,ROC-AUC
+Tuned TF-IDF + LR,98.18%,92.23%,68.35%,78.51%,94.63%
+DistilBERT,97.83%,91.40%,61.15%,73.28%,93.30%
+TF-IDF + LR (baseline),96.84%,64.85%,75.72%,69.87%,96.11%
+TF-IDF + LinearSVC,97.34%,80.95%,58.96%,68.23%,95.47%
+Structured Random Forest,97.46%,97.67%,48.56%,64.87%,97.12%
+BiLSTM + GloVe,96.22%,63.19%,52.60%,57.41%,93.06%
+TF-IDF + Random Forest,96.95%,100.00%,36.99%,54.01%,96.91%
+BiLSTM + Random Embeddings,96.17%,65.00%,45.09%,53.24%,92.11%
+Structured LR,90.97%,31.71%,75.14%,44.60%,92.46%
+Structured RBF SVM,52.07%,6.79%,69.94%,12.37%,64.29%

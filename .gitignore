@@ -10,3 +10,5 @@ venv/
 *.keras
 glove_data/
 distilbert_*/
+
+!reports/results/*.csv
